@@ -1,0 +1,13 @@
+1. find {div: class="item-cell"}
+    if "Out of Stock" not in item-cell  
+        go the href="URL"
+2. In the URL go to {div: class="product-seller"}
+    if Newegg in {div: class="product-seller"}
+    Notify Discord Bot
+3. Discord Bot Logic goes here
+
+Overall Logic
+
+1. Find all URLs where !Out of Stock
+2. Append them to a list of strings
+3. Go to each URL in that list and see if the product is sold by NewEgg
